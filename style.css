@@ -1,0 +1,41 @@
+.pic1 {
+  width: 30%;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+  margin-left: 30px;
+}
+.pic2 {
+  width: 20%;
+  border: 5px solid #628e90;
+  padding: 50px;
+  margin-left: 200px;
+}
+.pic3 {
+  width: 20%;
+  border: 5px solid #47b5ff;
+  padding: 10px;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+h1 {
+  position: fixed;
+  color: blueviolet;
+}
+/* static positioning is the default behavior! no difference after refresh page */
+.static {
+  position: static;
+  background: yellow;
+}
+/* once the positioned element has taken its place in the normal flow, 
+you can then modify its final position, including making it overlap other 
+elements on the page*/
+.relative {
+  position: relative;
+  background: #47b5ff;
+}
+/*we can create isolated UI features that don't interfere with the layout 
+of other elements on the page with setting absolute position*/
+.absolute {
+  position: absolute;
+  background: #628e90;
+}
